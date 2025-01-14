@@ -33,5 +33,5 @@ jobs:
             url: ${{ env.API_URL }}
             filePath: target/classes/META-INF/sbom/application.cdx.json
             secretAccessKey: ${{secrets.SECRET_ACCESS_KEY}}
-            accessKey: ${{variables.ACCES_KEY_CYBEATS}} 
+            accessKey: ${{secrets.ACCES_KEY_CYBEATS}} 
             subType: application
